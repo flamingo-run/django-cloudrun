@@ -1,0 +1,6 @@
+
+.env
+
+django_cloudrun/__pycache__/
+
+.DS_Store

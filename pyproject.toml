@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "django-cloudrun"
+version = "0.0.1"
+description = ""
+authors = ["João Daher <joao@daher.dev>"]
+
+[tool.poetry.dependencies]
+python = "3.8.1"
+
+Django = "^3"
+django-environ = "*"
+django-storages = "*"
+google-auth = "1.14.3"
+google-cloud-core = "1.3.0"
+google-cloud-secret-manager = "0.2.0"
+google-cloud-storage = "1.28.1"
+gunicorn = "20.0.4"
+psycopg2-binary = "2.8.5"
+requests = "2.23.0"
+celery = "*"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+pylint-django = "*"
+pylint-celery = "*"
+coverage = "*"
