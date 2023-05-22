@@ -16,7 +16,7 @@ google-cloud-secret-manager = "0.2.0"
 google-cloud-storage = "1.28.1"
 gunicorn = "20.0.4"
 psycopg2-binary = "2.8.5"
-requests = "2.23.0"
+requests = "2.31.0"
 celery = "*"
 
 [tool.poetry.dev-dependencies]
